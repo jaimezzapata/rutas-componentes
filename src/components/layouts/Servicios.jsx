@@ -1,6 +1,11 @@
+import Header from "../helpers/Header"
+
 const Servicios = () => {
   return (
-    <div>Servicios</div>
+    <div>
+      <Header />
+      <h1>Servicios</h1>
+    </div>
   )
 }
 
