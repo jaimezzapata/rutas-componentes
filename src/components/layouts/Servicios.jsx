@@ -1,12 +1,14 @@
-import Header from "../helpers/Header"
+import Header from "../helpers/Header";
 
 const Servicios = () => {
   return (
-    <div>
+    <div className="servicios">
       <Header />
-      <h1>Servicios</h1>
+      <section>
+        <h1>Servicios</h1>
+      </section>
     </div>
-  )
-}
+  );
+};
 
-export default Servicios
+export default Servicios;
