@@ -18,11 +18,10 @@ const router = createBrowserRouter([
 ])
 
 function App() {
-
   return (
-    <>
+    <section className='contenedor'>
       <RouterProvider router={router} />
-    </>
+    </section>
   )
 }
 
